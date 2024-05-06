@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho 06/05/2024</title>
+</head>
+<body>
+    <h2>Validações por Expressões Regulares!</h2>
+
+    <body>
+        <form id="contactForm" action="#" method="post" onsubmit="return validarCampos()">
+            <label for="nome">Nome:</label>
+            <input id="nome" name="nome">
+            <div id="nomeErro"></div>
+            <br>
+    
+            <label for="email">E-mail:</label>
+            <input id="email" name="email">
+            <div id="emailErro"></div>
+            <br>
+
+            <label for="numero">Telefone:</label>
+            <input id="numero" name="numero" placeholder="DD XXXXX-XXXX">
+            <div id="numeroErro"></div>
+            <br>
+    
+            <input type="submit" value="Enviar">
+        </form>
+
+        <script src="./script.js"></script>
+</body>
+</html>
